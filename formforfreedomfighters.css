@@ -1,0 +1,356 @@
+body/*background-color*/
+{
+	background: linear-gradient(90deg,black,grey);
+	padding: 0px;
+	margin: 0px;
+}
+.details	/*outer designof sign up form*/
+{
+	border:2px solid black;
+	max-width: 100%;
+	min-width: 10%;
+	height:700px;
+	max-height: 900px;
+	margin:30px;
+	padding:20px 0px 50px 50px ;
+	box-sizing:border-box;
+	background-image: linear-gradient(45deg,black,grey,darkgray);
+	color: white;
+}
+#u 			/*label content sign up form*/
+{
+	font-size:24px;
+	font-family: 'Noto Sans', sans-serif;
+	font-style: oblique;
+	text-align: left;
+}
+/*input type of sign up form*/
+.name[type=text]
+{
+	border: 2px solid red;
+	margin:8px;
+	padding:3px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 50%;
+}
+.e[type=email]
+{
+	border: 2px solid red;
+	margin:8px;
+	padding:3px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 50%;
+}
+input[type=tel]
+{
+	border: 2px solid red;
+	margin:7px;
+	padding:3px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 50%;
+}
+select
+{
+	border: 2px solid red;
+	margin:8px;
+	padding:3px;
+	box-sizing: border-box;
+	border-radius: 6px;
+	width: 50%;
+}
+
+#o/*radio button css*/
+{
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	font-wight:bold;
+}
+input [type=date]
+{
+	display: block;
+	font: sans-serif;
+	width: 50%;
+}
+/*sumbit button css*/
+#Submit
+{
+	box-sizing: border-box;
+    width: 50%;
+	height: 30px;
+	background-color: #1E90FF;
+	color:#7FFFD4;
+	font-family:aerial;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 20px;
+	border-radius: 40px;
+	cursor: pointer;
+}
+.internal
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color:white;
+	font-family:'Anton', sans-serif;
+	text-decoration: 2px  underline white;
+	margin-top: -25px;
+}
+/*--------*/
+/*Dashboard Css*/
+#dash
+{
+	border: 2px solid black;
+	margin: 30px auto;
+	width: 50%;
+	color: white;
+	height: 770px;
+}
+.second
+{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color:white;
+	text-decoration: 2px  underline white;
+	font-family: 'Ledger', serif;
+}
+#data[type=text]
+{
+	border: 2px solid red;
+	border-radius: 5px;
+		width: 50%;
+}
+#dataa[type=email]
+{
+	border: 2px solid red;
+	border-radius: 5px;
+		width: 50%;
+}
+.but
+{
+	box-sizing: border-box;
+	width: 200px;
+	height: 40px;
+	margin: 30px;
+	margin-left:5px;
+	border-radius: 20px;
+	font-size: 29px;
+	font-style: oblique;
+	font-weight: 200;
+	cursor: pointer;
+	background-color: darkcyan;
+	color:greenyellow;
+	font-family: 'Oooh Baby', cursive;
+
+}
+/*About Page*/
+.t/*div css*/
+{
+	width:90%;
+	border: 2px solid white;
+	color: white;
+	float:right;
+	font-size: x-large;
+	margin-right: 60px;
+	padding:10px 10px 10px 10px;
+	box-sizing: border-box;
+	text-align: justify;
+}
+/*css image of about page*/
+.i{
+	width: 25%;
+	float: right;
+	border: 2px solid white;
+	
+}
+/*heading of  about page*/
+#head
+{
+	color: #FFE4B5;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style:solid;
+	font-size: 35px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style:oblique;
+}
+.content
+{
+	font-family: 'Oranienbaum', serif;
+	font-size: 30px;
+}
+.con/*css of the contact page image*/
+{
+	width:35%;
+	
+}
+:root
+{
+	--font:'Nunito Sans', sans-serif;;
+}
+#table/*css of the form*/
+{
+	border: 2px solid black;
+	height: 400px;
+	width: 40%;
+	border-radius: 20px;
+	box-sizing: border-box;
+	padding: 15px;
+}
+#ci/*css of the contentpage*/
+{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-size:30px;
+	color: #00FF7F;
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-style: oblique;
+	font-weight: bold;
+	word-spacing: 6px;
+}
+#det
+{
+	margin:0px 5px 20px 20px;
+	font-size:28px;
+	color: #6495ED;	
+	word-spacing: 9px;
+	font-family: 'Caveat', cursive;
+}
+#de
+{
+	margin: 5px;
+	font-size:29px;
+	color: #7B68EE;	
+	word-spacing: 9px;
+	font-family: 'Rokkitt', serif;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}
+#first
+{
+	font-size: 25px;
+	color: white;
+	font-family:var(--font); 
+	font-weight:bolder;
+}
+.n[type=text]
+{
+	
+	border-color: red;
+	box-shadow: 2px 2px 3  black;
+	margin: 6px;
+		width: 50%;
+}
+.r[type=email]
+{
+	border-color: red;
+	box-shadow: 2px 2px 3  black;
+	margin: 6px;
+		width: 50%;
+}
+textarea
+{
+	border-color: red;
+	box-shadow: 2px 2px 3  black;
+	margin: 6px;
+	font-family: var(--font);	
+}
+.button/*contact us page*/
+{
+	background-color: green;
+	width: 50%;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+	margin-left:100px;
+	cursor: pointer;
+	font-family: var(--font);
+}
+.h{
+	text-align: center;
+	color:#FFE4C4;
+	text-decoration-line: underline;
+
+}
+.a
+{
+	text-decoration: none;
+}
+
+address
+{
+			color:#FF6347;
+			font-size: 22px;
+
+}
+footer p
+{
+	color:white;
+	font-size: 1.5em;
+	font-family:monospace;
+}
+/*Naviagation bar css*/
+nav
+		{
+			border: 2px solid  #333333;
+			background-color:#333333;
+		}
+		ul
+		{
+			padding: 0px;
+			margin: 0px;
+			overflow: hidden;
+		}
+		li
+		{
+			list-style-type: none;
+			text-align: center;
+			display: block;
+			font-size: 24px;
+			padding: 25px;
+			margin: 20px;
+			float: left;
+			font-family:'Zilla Slab', serif;
+		
+
+		}
+		a{
+			text-decoration: none;
+			padding: 10px;
+			padding-right: 20px;
+			color: white;
+		}
+		.u:hover
+		{
+			background-color: red;
+		}
+		.mahatma
+		{
+			width: 20%;
+			padding: 10px;
+			margin: 22px;
+			float: left;
+		}
+		
+		.sardar
+		{
+			width: 20%;
+			padding: 10px;
+			margin-top:0px ;
+			position: absolute;
+			left: 10px;
+			top: 570px;
+		}
+		.nehru
+		{
+			width: 20%;
+			padding: 10px;
+			margin: 22px;
+			position: absolute;
+			left: 330px;
+			top: 550px;
+		}

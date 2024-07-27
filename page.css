@@ -1,0 +1,40 @@
+body/*background-color*/
+{
+	background: linear-gradient(90deg,black,grey);
+	padding: 0px;
+	margin: 0px;
+}
+  nav
+		{
+			border: 2px solid  #333333;
+			background-color:#333333;
+		}
+		ul
+		{
+			padding: 0px;
+			margin: 0px;
+			overflow: hidden;
+		}
+		li
+		{
+			list-style-type: none;
+			text-align: center;
+			display: block;
+			font-size: 24px;
+			padding: 25px;
+			margin: 20px;
+			float: left;
+			font-family:'Zilla Slab', serif;
+		
+
+		}
+		a{
+			text-decoration: none;
+			padding: 10px;
+			padding-right: 20px;
+			color: white;
+		}
+		.u:hover
+		{
+			background-color: red;
+		}

@@ -1,0 +1,164 @@
+@import "formforfreedomfighters.css";
+html
+{
+	scroll-behavior:smooth;
+}
+/*table.html*/
+table
+		{
+			margin-top: 30px;
+			border: 2px solid black;
+			width: 30%;
+			float : right;
+
+		}
+		#date
+		{
+			color: floralwhite;
+			display: block;
+			text-align: center;
+			font-family: "IBM Plex Sans", sans-serif;
+			font-weight: 400;
+		   font-style: italic;
+		}
+		td
+		{
+			display: block;
+		}
+		img
+		{
+			width:100%;
+			 
+		}
+	 .one
+		{
+				color:whitesmoke;
+				text-align: justify-all;
+				padding: 20px;
+				word-break: break-word;
+				word-spacing: 5px;
+				line-height: 40px;
+				text-transform: capitalize;
+				font-family: "Libre Baskerville", serif;
+			    font-weight: 400;
+			   font-style: normal;
+			   font-size: 20px;
+		}
+		.head/*main heading*/
+		{
+			color:#CC33FF;
+			text-decoration-line: underline;
+			text-decoration-color: white;
+			text-decoration-thickness: 4px;
+			font-family: "Barlow", sans-serif;
+ 			font-weight: 700;
+  			font-style:italic;
+  			font-size: 35px;
+
+
+		}
+		.two/*sub heading*/
+		{
+			color:#FF33FF;
+			font-family: "IBM Plex Sans", sans-serif;
+			 font-weight: 600;
+			font-style: normal;
+			font-size: 32px;
+		}
+		.mark
+		{
+			font-weight: bold;
+			font-size: 30px;
+		}
+/*---------------------------------------------------------------------*/
+#date1
+   {
+			color: floralwhite;
+			display: block;
+			text-align: center;
+			font-family: "Playfair Display", serif;
+ 			font-optical-sizing: auto;
+ 			font-style: italic;
+ 			font-size: 21px;
+	}
+.one2
+	{
+				color:whitesmoke;
+				text-align: justify;
+				padding: 20px;
+				word-break: break-word;
+				word-spacing: 5px;
+				line-height: 40px;
+				text-transform: capitalize;
+				font-family: "Reddit Sans", sans-serif;
+  				font-optical-sizing: auto;
+  			  	font-style: italic;
+	}
+	h2
+	{
+		
+			color:#CC33FF;
+			text-decoration-line: underline;
+			text-decoration-color: white;
+			text-decoration-thickness: 4px;
+			font-family: "Bebas Neue", sans-serif;
+  			font-weight:bold;
+  			padding-bottom: 0px;
+			
+	}
+	h3/*sub heading*/
+		{
+			color:#FF33FF;
+			font-size: 32px;
+			font-family: "Noto Sans JP", sans-serif;
+			 font-optical-sizing: auto;
+			 font-weight:600;
+			  font-style: normal;
+
+		}	
+	/*---------------------------------------------------------------------*/
+#date2
+   {
+			color: floralwhite;
+			display: block;
+			text-align: center;
+			font-family: "Merriweather", serif;
+  			
+  			font-style: italic;
+ 			font-size: 23px;
+	}
+.one2
+	{
+				color:whitesmoke;
+				text-align: justify;
+				padding: 20px;
+				word-break: break-word;
+				word-spacing: 5px;
+				line-height: 40px;
+				text-transform: capitalize;
+				font-family: "Reddit Sans", sans-serif;
+  				font-optical-sizing: auto;
+  			  	font-style: italic;
+	}
+	h2
+	{
+		
+			color:#CC33FF;
+			text-decoration-line: underline;
+			text-decoration-color: white;
+			text-decoration-thickness: 4px;
+			font-family: "Bebas Neue", sans-serif;
+  			font-weight:bold;
+  			padding-bottom: 0px;
+			
+	}
+	h3/*sub heading*/
+		{
+			color:#FF33FF;
+			font-size: 32px;
+			font-family: "Noto Sans JP", sans-serif;
+			 font-optical-sizing: auto;
+			 font-weight:600;
+			  font-style: normal;
+
+		}	

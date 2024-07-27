@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="formforfreedomfighters.css">
+	<link href="https://fonts.googleapis.com/css2?family=Ledger&family=Oooh+Baby&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+		<nav>
+		<ul>
+			<li><a href="index.html"target="-top" class="u">Home</a></li>
+			<li><a href="formforfreedomfighters.html" target="-top" class="u">CreateAccount </a></li>
+			<li><a href="dashboard.html" class="u">Dashboard</a></li>
+			<li><a href="About.html" target="-top" class="u">About</a></li>
+			<li><a href="contactus.html" target="-top" class="u">Contactus</a></li>
+		</ul>
+	</nav>
+	<form id="dash">
+		<h2 class="second">Dashboard</h2>
+		<label id="u">First Name:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text"placeholder="enter the  First-name" size="50" required class="text" value="Yash" readonly id="data"> <br><br>
+		<label id="u">Last Name:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text"placeholder="enter theLast-name" size="50" value="Nahar" readonly id="data" > <br><br>
+		<label id ="u">Date of Birth:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="date" > <br><br>
+		<label id="u">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="Gender" id ="Male" checked ="Male" readonly><label for="Male" id="o">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="Gender" id ="Female"  readonly ><label for="Female"id ="o">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="Gender" id ="other"readonly ><label for="other" id="o">Other</label><br><br>
+		<label id="u">College Name:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text"placeholder="enter theCollegeName" size="50" value="Aryabhatta College of Research and tecnology center" readonly id="data"> <br><br>
+		<label id="u">Branch:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input list="Branch">
+		<datalist id="Branch" >
+			<option value="Computer Science Enginerring">
+			<option value="Mechancical Enginerring">
+			<option value="Civil Enginerring">
+			<option value="Electrical Enginerring">
+		</datalist><br><br>
+		<label id="u">Select the Semester :-</label>&nbsp;&nbsp;
+		<select >
+			<option>Select the Semester</option>
+			<optgroup label="Computer Science">
+				<option id="o">I Semester</option>
+				<option id="o">IISemester</option>
+				<option id="o">III Semester</option>
+				<option id="o">IV Semester</option>
+				<option id="o">V Semester</option>
+				<option id="o">VISemester</option>
+				<option id="o">VIISemester</option>
+				<option id="o">VIIISemester</option>
+			</optgroup>
+			<optgroup label="Mechancical Science">
+				<option id="o">I Semester</option>
+				<option id="o">IISemester</option>
+				<option id="o">III Semester</option>
+				<option id="o">IV Semester</option>
+				<option id="o">V Semester</option>
+				<option id="o">VISemester</option>
+				<option id="o">VIISemester</option>
+				<option id="o">VIIISemester</option>
+			</optgroup>
+			<optgroup label="Civil Science">
+				<option id="o">I Semester</option>
+				<option id="o">IISemester</option>
+				<option id="o">III Semester</option>
+				<option id="o">IV Semester</option>
+				<option id="o">V Semester</option>
+				<option id="o">VISemester</option>
+				<option id="o">VIISemester</option>
+				<option id="o">VIIISemester</option>
+			</optgroup>
+			<optgroup label="Electrical Science">
+				<option id="o">I Semester</option>
+				<option id="o">IISemester</option>
+				<option id="o">III Semester</option>
+				<option id="o">IV Semester</option>
+				<option id="o">V Semester</option>
+				<option id="o">VISemester</option>
+				<option id="o">VIISemester</option>
+				<option id="o">VIIISemester</option>
+			</optgroup>
+		</select><br><br>
+		<label id="u">Email:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="email"placeholder="enter the email" size="50" value="naharyash678@gmail.com" readonly id="dataa" > <br><br>
+		<label id="u">Mobile no:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" max="9999999999" min="1000000000"  placeholder="enterthe Moblie Number" value="7850052930" readonly  id="data"><br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="nav.html"><button  type="Button" class="but">Submit</button></a>
+
+	</form>
+</body>
+</html>
